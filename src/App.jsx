@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import profile from './assets/profilePhotos.png';
 import siG from './assets/slG.png';
+import kodeLogo from './assets/Kode.png';
+import KodeStyle from './assets/kodeStyle.png';
 
 function App() {
 
@@ -36,7 +38,11 @@ function App() {
           </div>
       </div>
       <div className='flexy-footer'>
-        
+        <div className='footer'>
+          <img src={kodeLogo} alt='' />
+          <p>KodeCamp Internship Task</p>
+          <img src={KodeStyle} alt='' />
+        </div>
       </div>
     </>
   )
