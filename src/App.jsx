@@ -11,7 +11,7 @@ function App() {
       <div className='profile-container'>
         <div className='profile-header'>
           <img src={profile} alt="" />
-          <p><b>John Doe</b></p>
+          <h3>John Doe</h3>
           </div>
           <div className='profile-dash'>
             <div className='bar'>
