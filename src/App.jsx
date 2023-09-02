@@ -43,7 +43,7 @@ function App() {
           <p>KodeCamp Internship Task</p>
           <img src={KodeStyle} alt='' />
         </div>
-      </div>SS
+      </div>
     </>
   )
 }

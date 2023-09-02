@@ -95,7 +95,7 @@ button:focus-visible {
   justify-content: space-between;
 }
 
-@media (min-width: 374px) and (max-width: 426px){
+@media (max-width: 426px){
 
   .bar{
     width: 100%;
