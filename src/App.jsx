@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import profile from './assets/profilePhotos.png';
-import siG from './assets/slG.png';
-import kodeLogo from './assets/Kode.png';
-import KodeStyle from './assets/kodeStyle.png';
+import profile from './assets/profile__img.png';
+import slack from './assets/slack.png';
+import github from './assets/Social icon.png'
+import kodeLogo from './assets/kodecamp logo white 2.png';
+import KodeStyle from './assets/KodeHauz Logo 1.png';
 
 function App() {
 
@@ -33,7 +34,8 @@ function App() {
               <p className='bar-para'>Design books</p>
             </div>
             <div className='logo'>
-              <img src = {siG} alt='' />
+              <img src = {slack} alt='' className='slc'/>
+              <img src = {github} alt='' className='git'/>
             </div>
           </div>
       </div>

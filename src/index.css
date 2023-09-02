@@ -95,6 +95,17 @@ button:focus-visible {
   justify-content: space-between;
 }
 
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.slc{
+  margin-right: 10px;
+}
+
 @media (max-width: 426px){
 
   .bar{
